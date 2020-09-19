@@ -16,7 +16,8 @@
     <span>Numero verde: 800 818 081</span>
     <span>Numero mobile: 380 1292455</span>
   </div>
-  <div class="footarea links">
+
+  <div class="footarea">
     <span class="foottitle">PASTIFICIO</span>
     <span>Il Pastificio</span>
     <span>Grano decorticato a pietra</span>
@@ -27,7 +28,7 @@
     <span>Spaghetto quadrato</span>
     <span>Le persone</span>
 
-    <span class="foottitle links">PRODOTTI</span>
+    <span class="foottitle">PRODOTTI</span>
     <span>Le Classiche</span>
     <span>Le Integrali</span>
     <span>Le Speciali</span>
