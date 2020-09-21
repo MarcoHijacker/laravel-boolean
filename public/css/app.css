@@ -50,6 +50,15 @@ main h2 {
   margin: 15px;
 }
 
+main .lunga,
+main .corta,
+main .cortissima {
+  text-align: center;
+  color: darkcyan;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 footer {
   min-height: 500px;
   display: flex;

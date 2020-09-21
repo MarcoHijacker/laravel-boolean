@@ -8,8 +8,10 @@
         @foreach ($data as $item)
 
           @if ($item['tipo'] == "lunga")
-
-            <img src="{{ $item['src'] }}" alt="{{ $item['titolo'] }}">
+            <div class="lunga">
+              <img src="{{ $item['src'] }}" alt="{{ $item['titolo'] }}">
+              <div>{{ $item['titolo'] }}</div>
+            </div>
 
           @endif
         @endforeach
@@ -21,7 +23,10 @@
 
           @if ($item['tipo'] == "corta")
 
-            <img src="{{ $item['src'] }}" alt="{{ $item['titolo'] }}">
+            <div class="corta">
+              <img src="{{ $item['src'] }}" alt="{{ $item['titolo'] }}">
+              <div>{{ $item['titolo'] }}</div>
+            </div>
 
           @endif
         @endforeach
@@ -33,7 +38,10 @@
 
           @if ($item['tipo'] == "cortissima")
 
-            <img src="{{ $item['src'] }}" alt="{{ $item['titolo'] }}">
+            <div class="cortissima">
+              <img src="{{ $item['src'] }}" alt="{{ $item['titolo'] }}">
+              <div>{{ $item['titolo'] }}</div>
+            </div>
 
           @endif
         @endforeach

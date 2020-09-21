@@ -49,6 +49,12 @@ main {
     color: #002d75;
     margin: 15px;
   }
+  .lunga, .corta, .cortissima {
+    text-align: center;
+    color: darkcyan;
+    text-decoration: underline;
+    cursor: pointer;
+  }
 }
 
 footer {
